@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria com Votação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Galeria de Fotos Segundo Ano</h1>
+
+
+<div id="cpfContainer" class="cpf-container">
+  <label>Digite seu CPF:</label>
+  <input type="text" id="cpfInput" maxlength="14" placeholder="000.000.000-00" required>
+</div>
+
+    <br>
+    <div id="gallery" class="gallery">
+        <!-- Fotos serão inseridas dinamicamente -->
+    </div>
+
+
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="zoomedImg">
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
