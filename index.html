@@ -11,10 +11,14 @@
     <h1>Galeria de Fotos Segundo Ano</h1>
 
 
-<div id="cpfContainer" class="cpf-container">
-  <label>Digite seu CPF:</label>
-  <input type="text" id="cpfInput" maxlength="14" placeholder="000.000.000-00" required>
-</div>
+    <div id="cpfModal" class="cpf-modal">
+        <div class="cpf-box">
+            <span class="cpf-close">&times;</span>
+            <h3>Digite seu CPF para votar</h3>
+            <input type="text" id="cpfInput" maxlength="14" placeholder="000.000.000-00">
+            <button id="confirmCpfBtn">Confirmar Voto</button>
+        </div>
+    </div>
 
     <br>
     <div id="gallery" class="gallery">
